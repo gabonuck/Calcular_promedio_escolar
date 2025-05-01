@@ -9,8 +9,8 @@ function generarCampos() {
     for (let i = 1; i <= cantidad; i++) {
       contenedor.innerHTML += `
         <div>
-          <label>Nota ${i}: <input type="number" id="nota${i}" step="any"></label>
-          <label>Peso %: <input type="number" id="peso${i}" step="any"></label>
+          <label>Calificacion ${i}: <input type="number" id="nota${i}" step="any"></label>
+          <label>Valor en porcentaje %: <input type="number" id="peso${i}" step="any"></label>
         </div>
       `;
     }
